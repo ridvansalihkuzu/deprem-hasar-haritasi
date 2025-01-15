@@ -27,6 +27,10 @@ In February 2023, Southeastern Turkey experienced a devastating series of earthq
 - **Buildings for Immediate Demolition**  
   These are buildings in which, due to the earthquake, the load-bearing elements have been significantly and permanently displaced, resulting in partial or total collapse. It is impossible to use or enter these buildings in any way, and belongings cannot be evacuated.
 
+- **Collapsed**
+  The building has partially or completely collapsed due to the earthquake. It cannot be used or entered.
+
+
 This dataset is based on official records from **Çevre, Şehircilik ve İklim Değişikliği Bakanlığı** (the Turkish Ministry of Environment, Urbanization and Climate Change) and their **post-earthquake field studies**. It covers the following cities:
 
 - Adana
@@ -75,6 +79,10 @@ This dataset is based on official records from **Çevre, Şehircilik ve İklim D
 - **Acil Yıkılacak Binalar**  
   Deprem nedeniyle binanın taşıyıcı elemanlarının büyük oranda kalıcı yer değiştirerek kısmen veya tamamen yıkıldığı binalardır. Hiçbir şekilde kullanılması mümkün olmayan bu binalara girilemez ve eşyaların tahliyesi gerçekleştirilemez.
 
+- **Yıkık Binalar**
+  Bina, deprem nedeniyle tamamen veya kısmen çökmüş durumdadır. Kullanılması veya içerisine girilmesi mümkün değildir.
+
+
 Bu veri kümesi, **Çevre, Şehircilik ve İklim Değişikliği Bakanlığı**'nın **deprem sonrası saha çalışmalarına** dayanmaktadır. Aşağıdaki şehirleri kapsamaktadır:
 
 - Adana
@@ -122,6 +130,9 @@ Im Februar 2023 ereignete sich in Südosttürkei eine verheerende Erdbebenserie,
 
 - **Gebäude für den sofortigen Abriss**  
   Gebäude, deren tragende Elemente sich durch das Erdbeben erheblich und dauerhaft verschoben haben oder teilweise bzw. vollständig eingestürzt sind. Die Nutzung oder das Betreten dieser Gebäude ist unter keinen Umständen möglich, und eine Bergung von Gegenständen kann nicht erfolgen.
+
+- **Eingestürzt**
+  Das Gebäude ist durch das Erdbeben ganz oder teilweise eingestürzt. Eine Nutzung oder das Betreten ist nicht möglich.
 
 Dieser Datensatz basiert auf den offiziellen Aufzeichnungen des **Çevre, Şehircilik ve İklim Değişikliği Bakanlığı** (des türkischen Ministeriums für Umwelt, Stadtplanung und Klimawandel) und dessen **Feldstudien nach dem Erdbeben**. Er umfasst die folgenden Städte:
 
