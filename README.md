@@ -1,12 +1,77 @@
-# Türkiye deprem hasar haritası
+# Earthquake Damage Map - Türkiye 06.02.2023
 
-[Haritaya git](https://xnart.github.io/deprem-hasar-haritasi/)
+**Forked from**: [https://github.com/xnart/deprem-hasar-haritasi](https://github.com/xnart/deprem-hasar-haritasi)
+
+[Go to the map](https://xnart.github.io/deprem-hasar-haritasi/)
 
 <img src="https://user-images.githubusercontent.com/5033961/220190765-c61f69bf-3d6a-45c0-b2cf-4977fb1737e4.png"  height="300">
 
+# **English Version**
 
-- Hasarsız Binalar: Deprem nedeniyle herhangi bir hasar meydana gelmeyen binadır. (Depremden önce oluşan binadaki hasarlar ve kusurlar değerlendirilmez.) Binanın kullanılmasında bir sakınca yoktur.
-- Az Hasarlı Binalar: Deprem nedeniyle binanın boyasında, sıvalarında ve duvarlarında oluşan ince çatlaklar ile duvarlardan düşen sıvaların olduğu binalardır. (Depremden önce oluşan binadaki hasarlar ve kusurlar değerlendirilmez.) Binanın kullanılmasında bir sakınca yoktur.
-- Orta Hasarlı Binalar: Deprem nedeniyle binanın duvarlarındaki yarıklar ile taşıyıcı elemanlardaki ince çatlakların olduğu binalardır. Depremden önce oluşan binadaki hasarlar ve kusurlar değerlendirilmez. "Orta" hasarlı yapıda taşıma gücündeki azalma giderilmeden (yapı onarılmadan) ya da güçlendirilmeden yapı kullanılmamalıdır. Eşyaların tahliyesi gerçekleştirilebilir.
-- Ağır Hasarlı Binalar: Deprem nedeniyle binanın taşıyıcı elemanlarındaki geniş ve yaygın kesme kırılmalarının / ayrılmaların olduğu binalardır. "Ağır" hasarlı yapıların onarılmaz taşıma gücü kaybı ve geri (dayanım ve ekonomik açısından) alınamaz hasarları olan binalar olarak tanımlanır.
-- Acil Yıkılacak Binalar: Deprem nedeniyle binanın taşıyıcı elamanlarının büyük oranda kalıcı yer değiştirerek kısmen veya tamamen yıkıldığı binalardır. Hiçbir şekilde kullanılması mümkün olmayan bu binaların içine girilemez ve eşyaların tahliyesi gerçekleştirilemez.
+## Introduction
+In February 2023, Southeastern Turkey experienced a devastating series of earthquakes affecting **11 cities** and impacting approximately **15 million people**. More than **250,000 buildings** were damaged to varying degrees across a vast area of **108,812 km²**, comparable to the combined size of Bavaria and Baden-Württemberg. The scale of the disaster made rescue operations and the prioritization of affected regions both challenging and time-consuming. Given that rescue efforts are highly time-critical, integrating **Earth Observation** and **Machine Learning** presents a promising approach to enhancing resilience in the face of natural disasters. This project aims to **automate damage level estimation** using remote sensing imagery, SAR interferometry, and machine learning-based classification and segmentation algorithms.
+
+## Building Damage Labels
+
+- **No-Damage Buildings**  
+  These are buildings that have not sustained any damage due to the earthquake. (Damages and defects that existed prior to the earthquake are not considered.) There is no issue with continuing to use the building.
+
+- **Slightly Damaged Buildings**  
+  These are buildings that, due to the earthquake, have minor cracks in the paint, plaster, or walls, as well as areas where plaster has fallen off. (Damages and defects that existed prior to the earthquake are not considered.) There is no issue with continuing to use the building.
+
+- **Moderately Damaged Buildings**  
+  These are buildings that, due to the earthquake, have cracks in their walls and fine cracks in their load-bearing elements. (Damages and defects that existed prior to the earthquake are not considered.) A moderately damaged building must not be used until the reduction in its load-bearing capacity has been remedied (i.e., repaired or strengthened). The evacuation of belongings is possible.
+
+- **Severely Damaged Buildings**  
+  These are buildings that, due to the earthquake, have extensive and widespread shear cracks or separations in their load-bearing elements. Buildings classified as “severely damaged” are defined as having irreparable loss of load-bearing capacity and damage that cannot be recovered (both structurally and economically).
+
+- **Buildings for Immediate Demolition**  
+  These are buildings in which, due to the earthquake, the load-bearing elements have been significantly and permanently displaced, resulting in partial or total collapse. It is impossible to use or enter these buildings in any way, and belongings cannot be evacuated.
+
+---
+
+# **Türkçe Versiyonu**
+
+## Giriş
+Şubat 2023’te, Türkiye’nin güneydoğusunda **11 şehri** etkileyen ve yaklaşık **15 milyon insanı** mağdur eden yıkıcı bir dizi deprem meydana gelmiştir. **250.000’den fazla binada**, deprem öncesindeki hasar ve kusurlar dikkate alınmaksızın, **108.812 km²** gibi geniş bir alana yayılan farklı seviyelerde hasar tespit edilmiştir. Bu alan, Bavyera ile Baden-Württemberg’in toplam büyüklüğüyle karşılaştırılabilir. Afet ölçeği, kurtarma çalışmalarını ve etkilenen bölgelerin önceliklendirilmesini oldukça güç ve zaman alıcı hale getirmiştir. Zamanın kritik olduğu bu kurtarma faaliyetlerinde **Uzaktan Algılama (Earth Observation)** ve **Makine Öğrenmesi** entegrasyonu, doğal afetlere karşı direnç artırmak adına umut vadeden bir yaklaşımdır. Bu proje, **uzaktan algılama görüntüleri**, SAR interferometrisi ve makine öğrenmesine dayalı sınıflandırma ile segmentasyon algoritmaları kullanarak **otomatik hasar seviyelendirme** yapmayı amaçlamaktadır.
+
+## Bina Hasar Etiketleri
+
+- **Hasarsız Binalar**  
+  Deprem nedeniyle herhangi bir hasar meydana gelmeyen binadır. (Depremden önce oluşan binadaki hasarlar ve kusurlar değerlendirilmez.) Binanın kullanılmasında bir sakınca yoktur.
+
+- **Az Hasarlı Binalar**  
+  Deprem nedeniyle binanın boyasında, sıvalarında ve duvarlarında oluşan ince çatlaklar ile duvarlardan düşen sıvaların olduğu binalardır. (Depremden önce oluşan binadaki hasarlar ve kusurlar değerlendirilmez.) Binanın kullanılmasında bir sakınca yoktur.
+
+- **Orta Hasarlı Binalar**  
+  Deprem nedeniyle binanın duvarlarındaki yarıklar ile taşıyıcı elemanlardaki ince çatlakların olduğu binalardır. (Depremden önce oluşan binadaki hasarlar ve kusurlar değerlendirilmez.) “Orta” hasarlı yapıda taşıma gücündeki azalma giderilmeden (yapı onarılmadan) veya güçlendirilmeden yapı kullanılmamalıdır. Eşyaların tahliyesi gerçekleştirilebilir.
+
+- **Ağır Hasarlı Binalar**  
+  Deprem nedeniyle binanın taşıyıcı elemanlarındaki geniş ve yaygın kesme kırılmalarının / ayrılmalarının olduğu binalardır. “Ağır” hasarlı yapıların onarılmaz taşıma gücü kaybı ve geri (dayanım ve ekonomik açıdan) kazanılamaz hasarları söz konusudur.
+
+- **Acil Yıkılacak Binalar**  
+  Deprem nedeniyle binanın taşıyıcı elemanlarının büyük oranda kalıcı yer değiştirerek kısmen veya tamamen yıkıldığı binalardır. Hiçbir şekilde kullanılması mümkün olmayan bu binalara girilemez ve eşyaların tahliyesi gerçekleştirilemez.
+
+---
+
+# **Deutsche Version**
+
+## Einführung
+Im Februar 2023 ereignete sich in Südosttürkei eine verheerende Erdbebenserie, welche **11 Städte** betraf und ungefähr **15 Millionen Menschen** in Mitleidenschaft zog. Über **250.000 Gebäude** wurden in unterschiedlichem Ausmaß auf einer Fläche von **108.812 km²** beschädigt, was in etwa der kombinierten Größe von Bayern und Baden-Württemberg entspricht. Das Ausmaß der Katastrophe erschwerte und verzögerte die Rettungsarbeiten sowie die Priorisierung der betroffenen Gebiete erheblich. Angesichts der zeitkritischen Natur von Rettungseinsätzen bietet die Integration von **Erdbeobachtung** und **Machine Learning** einen vielversprechenden Ansatz, um die Widerstandsfähigkeit gegenüber Naturkatastrophen zu erhöhen. Dieses Projekt zielt darauf ab, mithilfe von **Fernerkundungsdaten**, SAR-Interferometrie sowie auf maschinellem Lernen basierenden Klassifikations- und Segmentierungsalgorithmen eine **automatisierte Schätzung des Schadensausmaßes** zu ermöglichen.
+
+## Gebäudeschaden-Kategorien
+
+- **Unbeschädigte Gebäude**  
+  Gebäude, die durch das Erdbeben keinerlei Schäden erlitten haben. (Schäden und Mängel, die vor dem Erdbeben bestanden, werden nicht berücksichtigt.) Die Nutzung des Gebäudes kann uneingeschränkt fortgesetzt werden.
+
+- **Leicht beschädigte Gebäude**  
+  Gebäude, bei denen es durch das Erdbeben zu kleineren Rissen in der Farbe, im Putz oder in den Wänden gekommen ist, sowie zu abgefallenem Putz. (Schäden und Mängel, die vor dem Erdbeben bestanden, werden nicht berücksichtigt.) Die Nutzung des Gebäudes kann uneingeschränkt fortgesetzt werden.
+
+- **Mäßig beschädigte Gebäude**  
+  Gebäude, bei denen es durch das Erdbeben zu Rissen in den Wänden und feinen Rissen in tragenden Elementen gekommen ist. (Schäden und Mängel, die vor dem Erdbeben bestanden, werden nicht berücksichtigt.) Ein mäßig beschädigtes Gebäude darf erst wieder genutzt werden, wenn der Verlust an Tragfähigkeit behoben (das Gebäude repariert oder verstärkt) wurde. Die Räumung des Inventars ist möglich.
+
+- **Stark beschädigte Gebäude**  
+  Gebäude, bei denen es durch das Erdbeben zu umfangreichen und weit verbreiteten Scherbrüchen oder Abtrennungen an den tragenden Elementen gekommen ist. Stark beschädigte Gebäude weisen einen irreparablen Verlust an Tragfähigkeit auf und sind strukturell oder wirtschaftlich nicht wiederherstellbar.
+
+- **Gebäude für den sofortigen Abriss**  
+  Gebäude, deren tragende Elemente sich durch das Erdbeben erheblich und dauerhaft verschoben haben oder teilweise bzw. vollständig eingestürzt sind. Die Nutzung oder das Betreten dieser Gebäude ist unter keinen Umständen möglich, und eine Bergung von Gegenständen kann nicht erfolgen.
