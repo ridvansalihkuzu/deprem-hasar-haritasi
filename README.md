@@ -48,7 +48,7 @@ This dataset is based on official records from **Çevre, Şehircilik ve İklim D
 - Osmaniye
 - Sivas
 - Tunceli
-- ŞanlıUrfa
+- Şanlıurfa
 - Van
 
 ---
@@ -75,7 +75,7 @@ This dataset is based on official records from **Çevre, Şehircilik ve İklim D
 - **Acil Yıkılacak Binalar**  
   Deprem nedeniyle binanın taşıyıcı elemanlarının büyük oranda kalıcı yer değiştirerek kısmen veya tamamen yıkıldığı binalardır. Hiçbir şekilde kullanılması mümkün olmayan bu binalara girilemez ve eşyaların tahliyesi gerçekleştirilemez.
 
-  Bu veri kümesi, **Çevre, Şehircilik ve İklim Değişikliği Bakanlığı**'nın **deprem sonrası saha çalışmalarına** dayanmaktadır. Aşağıdaki şehirleri kapsamaktadır:
+Bu veri kümesi, **Çevre, Şehircilik ve İklim Değişikliği Bakanlığı**'nın **deprem sonrası saha çalışmalarına** dayanmaktadır. Aşağıdaki şehirleri kapsamaktadır:
 
 - Adana
 - Adıyaman
@@ -96,7 +96,7 @@ This dataset is based on official records from **Çevre, Şehircilik ve İklim D
 - Osmaniye
 - Sivas
 - Tunceli
-- ŞanlıUrfa
+- Şanlıurfa
 - Van
 
 ---
