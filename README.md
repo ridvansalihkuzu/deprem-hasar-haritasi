@@ -27,8 +27,10 @@ In February 2023, Southeastern Turkey experienced a devastating series of earthq
 - **Buildings for Immediate Demolition**  
   These are buildings in which, due to the earthquake, the load-bearing elements have been significantly and permanently displaced, resulting in partial or total collapse. It is impossible to use or enter these buildings in any way, and belongings cannot be evacuated.
 
-- **Collapsed**
+- **Collapsed Buildings**  
   The building has partially or completely collapsed due to the earthquake. It cannot be used or entered.
+
+
 
 
 This dataset is based on official records from **Çevre, Şehircilik ve İklim Değişikliği Bakanlığı** (the Turkish Ministry of Environment, Urbanization and Climate Change) and their **post-earthquake field studies**. It covers the following cities:
