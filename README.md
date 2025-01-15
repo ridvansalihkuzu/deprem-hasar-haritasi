@@ -9,8 +9,7 @@
 # **English Version**
 
 ## Introduction
-In February 2023, Southeastern Turkey experienced a devastating series of earthquakes affecting **11 cities** and impacting approximately **15 million people**. More than **250,000 buildings** were damaged to varying degrees across a vast area of **108,812 km²**, comparable to the combined size of Bavaria and Baden-Württemberg. The scale of the disaster made rescue operations and the prioritization of affected regions both challenging and time-consuming. Given that rescue efforts are highly time-critical, integrating **Earth Observation** and **Machine Learning** presents a promising approach to enhancing resilience in the face of natural disasters. This project aims to **automate damage level estimation** using remote sensing imagery, SAR interferometry, and machine learning-based classification and segmentation algorithms.
-
+In February 2023, Southeastern Turkey experienced a devastating series of earthquakes affecting **11 cities** and impacting approximately **15 million people**. More than **250,000 buildings** were damaged to varying degrees across a vast area of **108,812 km²**, comparable to the combined size of Bavaria and Baden-Württemberg. The scale of the disaster made rescue operations and the prioritization of affected regions both challenging and time-consuming. 
 ## Building Damage Labels
 
 - **No-Damage Buildings**  
@@ -33,7 +32,7 @@ In February 2023, Southeastern Turkey experienced a devastating series of earthq
 # **Türkçe Versiyonu**
 
 ## Giriş
-Şubat 2023’te, Türkiye’nin güneydoğusunda **11 şehri** etkileyen ve yaklaşık **15 milyon insanı** mağdur eden yıkıcı bir dizi deprem meydana gelmiştir. **250.000’den fazla binada**, deprem öncesindeki hasar ve kusurlar dikkate alınmaksızın, **108.812 km²** gibi geniş bir alana yayılan farklı seviyelerde hasar tespit edilmiştir. Bu alan, Bavyera ile Baden-Württemberg’in toplam büyüklüğüyle karşılaştırılabilir. Afet ölçeği, kurtarma çalışmalarını ve etkilenen bölgelerin önceliklendirilmesini oldukça güç ve zaman alıcı hale getirmiştir. Zamanın kritik olduğu bu kurtarma faaliyetlerinde **Uzaktan Algılama (Earth Observation)** ve **Makine Öğrenmesi** entegrasyonu, doğal afetlere karşı direnç artırmak adına umut vadeden bir yaklaşımdır. Bu proje, **uzaktan algılama görüntüleri**, SAR interferometrisi ve makine öğrenmesine dayalı sınıflandırma ile segmentasyon algoritmaları kullanarak **otomatik hasar seviyelendirme** yapmayı amaçlamaktadır.
+Şubat 2023’te, Türkiye’nin güneydoğusunda **11 şehri** etkileyen ve yaklaşık **15 milyon insanı** mağdur eden yıkıcı bir dizi deprem meydana gelmiştir. **250.000’den fazla binada**, deprem öncesindeki hasar ve kusurlar dikkate alınmaksızın, **108.812 km²** gibi geniş bir alana yayılan farklı seviyelerde hasar tespit edilmiştir. Bu alan, Bavyera ile Baden-Württemberg’in toplam büyüklüğüyle karşılaştırılabilir. Afet ölçeği, kurtarma çalışmalarını ve etkilenen bölgelerin önceliklendirilmesini oldukça güç ve zaman alıcı hale getirmiştir. 
 
 ## Bina Hasar Etiketleri
 
@@ -57,7 +56,7 @@ In February 2023, Southeastern Turkey experienced a devastating series of earthq
 # **Deutsche Version**
 
 ## Einführung
-Im Februar 2023 ereignete sich in Südosttürkei eine verheerende Erdbebenserie, welche **11 Städte** betraf und ungefähr **15 Millionen Menschen** in Mitleidenschaft zog. Über **250.000 Gebäude** wurden in unterschiedlichem Ausmaß auf einer Fläche von **108.812 km²** beschädigt, was in etwa der kombinierten Größe von Bayern und Baden-Württemberg entspricht. Das Ausmaß der Katastrophe erschwerte und verzögerte die Rettungsarbeiten sowie die Priorisierung der betroffenen Gebiete erheblich. Angesichts der zeitkritischen Natur von Rettungseinsätzen bietet die Integration von **Erdbeobachtung** und **Machine Learning** einen vielversprechenden Ansatz, um die Widerstandsfähigkeit gegenüber Naturkatastrophen zu erhöhen. Dieses Projekt zielt darauf ab, mithilfe von **Fernerkundungsdaten**, SAR-Interferometrie sowie auf maschinellem Lernen basierenden Klassifikations- und Segmentierungsalgorithmen eine **automatisierte Schätzung des Schadensausmaßes** zu ermöglichen.
+Im Februar 2023 ereignete sich in Südosttürkei eine verheerende Erdbebenserie, welche **11 Städte** betraf und ungefähr **15 Millionen Menschen** in Mitleidenschaft zog. Über **250.000 Gebäude** wurden in unterschiedlichem Ausmaß auf einer Fläche von **108.812 km²** beschädigt, was in etwa der kombinierten Größe von Bayern und Baden-Württemberg entspricht. Das Ausmaß der Katastrophe erschwerte und verzögerte die Rettungsarbeiten sowie die Priorisierung der betroffenen Gebiete erheblich. 
 
 ## Gebäudeschaden-Kategorien
 
